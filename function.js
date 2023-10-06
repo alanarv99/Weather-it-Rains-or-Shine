@@ -2,7 +2,6 @@
 //Day and Time
 let now = new Date();
 let days = [
-  "Sunday",
   "Monday",
   "Tuesday",
   "Wednesday",
