@@ -58,3 +58,9 @@ h1 {
 .line {
   color: #0d6efd;
 }
+#codeInfo {
+  text-align: center;
+}
+.link-opacity-100:hover {
+  color: black;
+}
