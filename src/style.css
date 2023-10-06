@@ -14,8 +14,12 @@ h1 {
   font-size: 25px;
   padding-bottom: 10px;
 }
-.dailyEmoji {
-  font-size: 100px;
+#currentLocationButton {
+  border: 1px solid black;
+}
+#weatherDescriptor {
+  font-size: 60px;
+  font-style: ;
 }
 .dailyTemp {
   font-size: 50px;
@@ -47,4 +51,10 @@ h1 {
 }
 .emoji {
   font-size: 50px;
+}
+.pixels {
+  font-size: 15px;
+}
+.line {
+  color: #0d6efd;
 }

@@ -157,8 +157,8 @@ function current() {
   }
   navigator.geolocation.getCurrentPosition(currentSpot);
 }
-let pins = document.querySelector("#currentLocationButton");
-pins.addEventListener("click", current);
+let pin = document.querySelector("#currentLocationButton");
+pin.addEventListener("click", current);
 
-let citey = document.querySelector("#searchCityForm");
-citey.addEventListener("submit", searchedCity);
+let city = document.querySelector("#searchCityForm");
+city.addEventListener("submit", searchedCity);
