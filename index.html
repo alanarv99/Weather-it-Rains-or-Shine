@@ -11,19 +11,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <h1>"Weather" it's Rain or Shine</h1>
-
     <div class="Search">
       <div class="container text-center">
         <div class="rowOne">
           <div class="col-3">
-            <button id="currentLocationButton" title="Search" type="submit">
+            <button
+              class="btn btn-light"
+              id="currentLocationButton"
+              title="Current location"
+              type="submit"
+            >
               📍
             </button>
           </div>
-          <form id="cityForm">
+          <form id="searchCityForm">
             <div class="col-6">
               <input
                 type="text"
@@ -44,7 +49,6 @@
         </div>
       </div>
     </div>
-
     <div class="cities">
       <div class="container text-center">
         <div class="row">
@@ -82,10 +86,9 @@
           <div class="card" style="width: 18rem">
             <div class="card-body">
               <h5 class="card-title">
-                Current Weather in <span id="location">Marlboro</span>, NJ 07746
-                <span class="dailyEmoji"> ☀ </span>
+                Current Weather in <span id="location">Marlboro</span>
+                <span id="weatherDescriptor">☀</span>
               </h5>
-
               <h6>
                 <div class="container">
                   <div class="row">
@@ -116,9 +119,8 @@
                   <div class="col-5 dailyTemp" id="measurement">76°F</div>
                   <div class="col-7">
                     <ul class="dailyDetails">
-                      <li>Precipitation: 1%</li>
-                      <li>Humidity: 87%</li>
-                      <li>Wind: 2mph</li>
+                      <li>Humidity: <span id="humidity"> 87</span>%</li>
+                      <li>Wind:<span id="wind">2</span>mph</li>
                     </ul>
                   </div>
                 </div>
