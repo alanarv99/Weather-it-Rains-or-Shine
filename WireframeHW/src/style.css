@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+.today {
+  padding: 0px;
+}
+.card {
+  border: 20px 30px;
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+}
+.card-title {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.dailyEmoji {
+  font-size: 100px;
+}
+.dailyTemp {
+  font-size: 50px;
+  padding: 0px;
+}
+.dailyDetails {
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+}
+.refresh {
+  padding-left: 70px;
+  padding-right: 70px;
+  border-color: black;
+  background: lightgray;
+}
+.upcomingDays {
+  padding: 0px;
+  border: 100px;
+}
+.upcoming {
+  text-align: center;
+  padding: 0px;
+  list-style: none;
+  font-size: 40px;
+}
+.day {
+  font-size: 30px;
+}
+.emoji {
+  font-size: 50px;
+}
